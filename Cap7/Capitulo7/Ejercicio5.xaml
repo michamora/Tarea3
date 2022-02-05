@@ -5,12 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cap7.Capitulo7"
         mc:Ignorable="d"
-        Title="Ejercicio 5" Height="480" Width="500">
+        Title="Ejercicio 5" Height="300" Width="400">
     <Grid  >
-        <Label Content="Calificacion" />
-        <TextBox x:Name="calificacion"  />
-        <Button  x:Name="agregar" Content="Agregar" Click="agregar_Click" />
-        <Button  x:Name="Imprimir" Content="Imprimir"  Click="Imprimir_Click"/>
-        <ListBox  x:Name="pantalla"  d:ItemsSource="{d:SampleData ItemCount=5}"/>
+       <StackPanel Margin ="16" Orientation ="Vertical">
+        <Label Content="Ingresa la palabra" />
+        <TextBox x:Name="palabra" Text=""/>
+        <Label Content="Ingresa su definicion" />
+        <TextBox x:Name="definicion" Text=""/>
+        <ListBox  x:Name="imprimir"  d:ItemsSource="{d:SampleData ItemCount=5}"/>
+
+          
+          <StackPanel
+        Margin = "0,16,0,0"
+        Orientation ="Horizontal"
+        HorizontalAlignment="Center" >
+
+        <Button Content ="Guardar" Click ="Guardar_Click"/>
+        <Button Content ="Ver" Click ="ver_Click"/>
+         <Button Content ="Imprimir" Click ="Imprimir_Click"/>
+         
+ 
+     </StackPanel>
+     </StackPanel>
+
     </Grid>     
 </Window>

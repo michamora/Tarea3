@@ -25,19 +25,28 @@ namespace Cap7.Capitulo7
     */
     public partial class Ejercicio2 : Window
       {
+       Hashtable tabla = new Hashtable();
         public Ejercicio2()
         {
-            InitializeComponent(); 
+            InitializeComponent();
         }
-        
-        private void agregar_Click(object sender, RoutedEventArgs e)
+
+        private void Guardar_Click(object sender, RoutedEventArgs e)
         {
-            
+            tabla.Add(palabra.Text,definicion.Text);
+                palabra.Text="";
+                    definicion.Text="";
         }
-        private void Imprimir_Click(object sender, RoutedEventArgs e)
+
+        private void ver_Click(object sender, RoutedEventArgs e)
         {
+           
+            foreach(DictionaryEntry dato in tabla)
+            {
+                pantalla.Items.Add(dato.Key);
+                   pantalla.Items.Add(dato.Value);
+            } 
             
         }
     }
-
 }
