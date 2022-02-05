@@ -8,10 +8,10 @@
         Title="Ejercicio 5" Height="300" Width="400">
     <Grid  >
        <StackPanel Margin ="16" Orientation ="Vertical">
-        <Label Content="Ingresa la palabra" />
-        <TextBox x:Name="palabra" Text=""/>
-        <Label Content="Ingresa su definicion" />
-        <TextBox x:Name="definicion" Text=""/>
+        <Label Content="Ingresa el nombre" />
+        <TextBox x:Name="nombre" Text=""/>
+        <Label Content="Ingresa el numero telefonico" />
+        <TextBox x:Name="numero" Text=""/>
         <ListBox  x:Name="imprimir"  d:ItemsSource="{d:SampleData ItemCount=5}"/>
 
           
@@ -20,8 +20,8 @@
         Orientation ="Horizontal"
         HorizontalAlignment="Center" >
 
-        
-         
+        <Button Content ="Guardar" Click ="Guardar_Click"/>
+        <Button Content ="Ver" Click ="Ver_Click"/>       
  
      </StackPanel>
      </StackPanel>

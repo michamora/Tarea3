@@ -23,21 +23,34 @@ namespace Cap7.Capitulo7
     una agenda telefónica y que guarde el
     nombre de la persona y su número telefonico.
     */  
-    public partial class Ejercicio5 : Window
-      {
+     public partial class Ejercicio5 : Window
+    {
+          private List<string> NOMBRE = new List<string>();
+          private List<long> TELEFONO= new List<long>();
         public Ejercicio5()
         {
-            InitializeComponent(); 
+            InitializeComponent();
         }
-        
-        private void agregar_Click(object sender, RoutedEventArgs e)
+
+        private void Guardar_Click(object sender, RoutedEventArgs e)
         {
-            
+            long numeroo=long.Parse(numero.Text);
+            NOMBRE.Add(nombre.Text);
+            TELEFONO.Add(numeroo);
+            numero.Text = " ";
+            nombre.Text = " ";
         }
-        private void Imprimir_Click(object sender, RoutedEventArgs e)
+         private void Ver_Click(object sender, RoutedEventArgs e)
         {
-            
+            imprimir.Items.Clear();
+             for(int i=0; i <NOMBRE.Count; i++)
+            {
+               imprimir.Items.Add(NOMBRE[i]);
+               imprimir.Items.Add(TELEFONO[i]);
+               
+                 
+            }
+         
         }
     }
-
 }
