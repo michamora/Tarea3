@@ -19,8 +19,9 @@ namespace Cap7.Capitulo7
     /// </summary>
 
     /*
-    Crear un programa que pase un arreglo
-    como parámetro a una función
+    5-Hacer un programa que funcione como
+    una agenda telefónica y que guarde el
+    nombre de la persona y su número telefonico.
     */
     public partial class Ejercicio5 : Window
       {

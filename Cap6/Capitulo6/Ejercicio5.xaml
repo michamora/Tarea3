@@ -7,10 +7,23 @@
         mc:Ignorable="d"
         Title="Ejercicio 5" Height="480" Width="500">
     <Grid  >
-        <Label Content="Calificacion" />
-        <TextBox x:Name="calificacion"  />
-        <Button  x:Name="agregar" Content="Agregar" Click="agregar_Click" />
-        <Button  x:Name="Imprimir" Content="Imprimir"  Click="Imprimir_Click"/>
-        <ListBox  x:Name="pantalla"  d:ItemsSource="{d:SampleData ItemCount=5}"/>
+       <StackPanel Margin ="16" Orientation ="Vertical">
+        <Label Content="Ingresa las calificaciones" />
+        <TextBox x:Name="Calificacion" Text=""/>
+        <ListBox  x:Name="imprimir"  d:ItemsSource="{d:SampleData ItemCount=5}"/>
+
+          
+          <StackPanel
+        Margin = "0,16,0,0"
+        Orientation ="Horizontal"
+        HorizontalAlignment="Center" >
+
+        <Button Content =" Agregar " Click ="agregar_Click"/>
+         <Button Content =" Imprimir " Click ="Imprimir_Click"/>
+         
+ 
+     </StackPanel>
+     </StackPanel>
+
     </Grid>     
 </Window>
