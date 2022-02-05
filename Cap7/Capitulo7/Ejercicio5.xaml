@@ -20,9 +20,7 @@
         Orientation ="Horizontal"
         HorizontalAlignment="Center" >
 
-        <Button Content ="Guardar" Click ="Guardar_Click"/>
-        <Button Content ="Ver" Click ="ver_Click"/>
-         <Button Content ="Imprimir" Click ="Imprimir_Click"/>
+        
          
  
      </StackPanel>

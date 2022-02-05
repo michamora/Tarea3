@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,18 +34,21 @@ namespace Cap7.Capitulo7
 
         private void Guardar_Click(object sender, RoutedEventArgs e)
         {
+            
+
             tabla.Add(palabra.Text,definicion.Text);
+            
                 palabra.Text="";
                     definicion.Text="";
         }
 
-        private void ver_Click(object sender, RoutedEventArgs e)
+        private void Ver_Click(object sender, RoutedEventArgs e)
         {
-           
+                      
             foreach(DictionaryEntry dato in tabla)
             {
-                pantalla.Items.Add(dato.Key);
-                   pantalla.Items.Add(dato.Value);
+                imprimir.Items.Add(dato.Key);
+                   imprimir.Items.Add(dato.Value);
             } 
             
         }
