@@ -22,7 +22,7 @@ namespace Cap7.Capitulo7
     5-Hacer un programa que funcione como
     una agenda telefónica y que guarde el
     nombre de la persona y su número telefonico.
-    */
+    */  
     public partial class Ejercicio5 : Window
       {
         public Ejercicio5()

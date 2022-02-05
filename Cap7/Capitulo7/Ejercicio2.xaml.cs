@@ -19,8 +19,9 @@ namespace Cap7.Capitulo7
     /// </summary>
 
     /*
-    Modificar el programa de la escuela para
-    que utilice funciones
+    Hacer un programa que funcione como un
+    diccionario, con palabra y definición,
+    usando el Hashtable.
     */
     public partial class Ejercicio2 : Window
       {
