@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 
-
 namespace Cap7.Capitulo7
 {
     /// <summary>
@@ -28,9 +27,6 @@ namespace Cap7.Capitulo7
             lista.Add(numero);
             CalificacionTextBox.Text = "";
         }
-
-
-
         private void Imprimir_Click(object sender, RoutedEventArgs e)
         {
             float suma = 0;
