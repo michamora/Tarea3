@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cap7.Capitulo7"
         mc:Ignorable="d"
-        Title="Ejercicio 1" Height="250" Width="300">
+        Title="Ejercicio 1 - Promedio con ArrayList 📊" Height="250" Width="400">
     <Grid>
     <StackPanel Margin ="16" Orientation ="Vertical">
         <Label Content="Ingresa las calificaciones" />
         <TextBox x:Name="CalificacionTextBox" Text="" Margin ="4" FontSize="15"/>
-        <ListBox  x:Name="imprimir"  d:ItemsSource="{d:SampleData ItemCount=5}" Height="65" Width="243"
+        <ListBox  x:Name="imprimir"  d:ItemsSource="{d:SampleData ItemCount=5}" Height="65" Width="348"
                 Background = "#FFF5F5F5" HorizontalAlignment="Center"/>
 
           
