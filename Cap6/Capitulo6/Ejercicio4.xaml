@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cap6.Capitulo6"
         mc:Ignorable="d"
-        Title="Ejercicio 4" Height="200" Width="300">
+        Title="Ejercicio 4" Height="300" Width="300">
     <Grid  >
         <StackPanel Margin ="16" Orientation ="Vertical">
         <Label Content="Ingresa las calificaciones" />
-        <TextBox x:Name="Calificacion" Text=""/>
-        <ListBox  x:Name="imprimir"  d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <TextBox x:Name="Calificacion" Text="" Margin ="4" FontSize="15"/>
+        <ListBox  x:Name="imprimir"  d:ItemsSource="{d:SampleData ItemCount=5}" Height="65" Width="243"
+                Background = "#FFF5F5F5" HorizontalAlignment="Center"/>
 
           
           <StackPanel
@@ -18,8 +19,8 @@
         Orientation ="Horizontal"
         HorizontalAlignment="Center" >
 
-        <Button Content =" Agregar " Click ="agregar_Click"/>
-         <Button Content =" Imprimir " Click ="Imprimir_Click"/>
+        <Button Content ="✏️Agregar " Background = "#FFFDF4BF" Click ="agregar_Click"/>
+         <Button Content ="📑Imprimir " Background = "#FFFDF4BF" Click ="Imprimir_Click"/>
          
  
      </StackPanel>
