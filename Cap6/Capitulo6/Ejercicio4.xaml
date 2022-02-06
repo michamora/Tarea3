@@ -12,8 +12,7 @@
         <TextBox x:Name="Calificacion" Text="" Margin ="4" FontSize="15"/>
         <ListBox  x:Name="imprimir"  d:ItemsSource="{d:SampleData ItemCount=5}" Height="65" Width="243"
                 Background = "#FFF5F5F5" HorizontalAlignment="Center"/>
-
-          
+         
           <StackPanel
         Margin = "0,16,0,0"
         Orientation ="Horizontal"
