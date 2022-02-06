@@ -58,7 +58,6 @@ namespace Cap6.Capitulo6
             }
 
         }
-
         private void Calcular()
         {
                float suma = 0;
