@@ -9,7 +9,6 @@
     <Grid>
         <StackPanel Orientation="Vertical">
             <Menu Height="18">
-
                 <MenuItem Header="Ejercicios📐">
                     <MenuItem Header="Ejercicio 1" x:Name="ejercicio1" Click="Ejercicio1_Click"></MenuItem>
                     <MenuItem Header="Ejercicio 2" x:Name="ejercicio2" Click="Ejercicio2_Click"></MenuItem>

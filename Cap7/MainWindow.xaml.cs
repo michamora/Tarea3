@@ -26,7 +26,7 @@ namespace Cap7
             InitializeComponent();
         }
 
-        
+          
         private void Ejercicio1_Click(object sender, RoutedEventArgs e)
         {
             Ejercicio1 ejer1 = new Ejercicio1();
@@ -38,7 +38,7 @@ namespace Cap7
             Ejercicio2 ejer2 = new Ejercicio2();
             ejer2.Show();
         }
-
+  
         private void Ejercicio5_Click(object sender, RoutedEventArgs e)
         {
             Ejercicio5 ejer5 = new Ejercicio5();
