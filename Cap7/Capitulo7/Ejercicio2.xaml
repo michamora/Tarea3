@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cap7.Capitulo7"
         mc:Ignorable="d"
-        Title="Ejercicio 2" Height="350" Width="350">
+        Title="Ejercicio 2 - Diccionario 📕" Height="350" Width="400">
     <Grid  >
         <StackPanel Margin ="16" Orientation ="Vertical">
         <Label Content="Ingresa la palabra" />
         <TextBox x:Name="palabra" Text="" Margin ="4" FontSize="15"/>
         <Label Content="Ingresa su definicion" />
         <TextBox x:Name="definicion" Text="" Margin ="4" FontSize="15"/>
-        <ListBox  x:Name="imprimir"  d:ItemsSource="{d:SampleData ItemCount=5}" Height="65" Width="292"
+        <ListBox  x:Name="imprimir"  d:ItemsSource="{d:SampleData ItemCount=5}" Height="65" Width="348"
                 Background = "#FFF5F5F5" HorizontalAlignment="Center"/>
 
           
