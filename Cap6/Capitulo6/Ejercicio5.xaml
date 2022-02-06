@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cap6.Capitulo6"
         mc:Ignorable="d"
-        Title="Ejercicio 5" Height="480" Width="500">
+        Title="Ejercicio 5" Height="300" Width="250">
     <Grid  >
        <StackPanel Margin ="16" Orientation ="Vertical">
         <Label Content="Ingresa las calificaciones" />
@@ -19,9 +19,7 @@
         HorizontalAlignment="Center" >
 
         <Button Content =" Agregar " Click ="agregar_Click"/>
-         <Button Content =" Imprimir " Click ="Imprimir_Click"/>
          
- 
      </StackPanel>
      </StackPanel>
 

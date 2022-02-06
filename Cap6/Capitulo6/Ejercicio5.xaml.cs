@@ -11,7 +11,7 @@ namespace Cap6.Capitulo6
 
     /*
     Crear un programa que pase un arreglo
-    como parámetro a una función
+    como parámetro a una función.
     */
     public partial class Ejercicio5 : Window
       {
@@ -30,12 +30,12 @@ namespace Cap6.Capitulo6
         private void Agregar()
         {
             
-            int cali =int.Parse(calificacion.Text);
+            int cali =int.Parse(Calificacion.Text);
             
             if(indice < Cantidad)
             {
                 calificaciones[indice] = cali;
-                  calificacion.Text = " ";
+                  Calificacion.Text = " ";
                     indice = indice + 1;
                        if(indice==Cantidad){
                           Calcular(calificaciones);
