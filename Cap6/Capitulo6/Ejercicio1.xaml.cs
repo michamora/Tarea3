@@ -57,8 +57,7 @@ namespace Cap6.Capitulo6
              promedio=suma/i;
                  imprimir.Items.Add("Calificacion mayor: "+ mayor);
                     imprimir.Items.Add("Calificacion menor: "+ menor);
-                       imprimir.Items.Add("Promedio: "+ promedio);
-                     
+                       imprimir.Items.Add("Promedio: "+ promedio);                 
         }
     }
 
