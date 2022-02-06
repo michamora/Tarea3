@@ -36,6 +36,7 @@ namespace Cap6
             Ejercicio4 ejer4 = new Ejercicio4();
             ejer4.Show();
         }
+
         private void ejercicio5_Click(object sender, RoutedEventArgs e)
         {
             Ejercicio5 ejer5 = new Ejercicio5();

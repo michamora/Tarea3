@@ -13,6 +13,7 @@
                     <MenuItem Header="Ejercicios 1 | 2 | 3" Click="MenuItem_Click"></MenuItem>
                     <MenuItem Header="Ejercicio 4" x:Name="ejercicio4" Click="ejercicio4_Click"></MenuItem>
                     <MenuItem Header="Ejercicio 5" x:Name="ejercicio5" Click="ejercicio5_Click"></MenuItem>
+ 
                 </MenuItem>
             </Menu>
         </StackPanel>
