@@ -26,31 +26,30 @@ namespace Cap7.Capitulo7
      public partial class Ejercicio5 : Window
     {
           private List<string> NOMBRE = new List<string>();
-          private List<long> TELEFONO= new List<long>();
-        public Ejercicio5()
+          private List<long> TELEFONO = new List<long>();
+          public Ejercicio5()
         {
             InitializeComponent();
         }
 
         private void Guardar_Click(object sender, RoutedEventArgs e)
         {
-            long numeroo=long.Parse(numero.Text);
-            NOMBRE.Add(nombre.Text);
-            TELEFONO.Add(numeroo);
-            numero.Text = " ";
-            nombre.Text = " ";
+            long num=long.Parse(numero.Text);
+                NOMBRE.Add(nombre.Text);
+                    TELEFONO.Add(num);
+                          numero.Text = " ";
+                               nombre.Text = " ";
         }
          private void Ver_Click(object sender, RoutedEventArgs e)
         {
-            imprimir.Items.Clear();
-             for(int i=0; i <NOMBRE.Count; i++)
+                imprimir.Items.Clear();
+                for(int i=0; i <NOMBRE.Count; i++)
             {
+
                imprimir.Items.Add(NOMBRE[i]);
                imprimir.Items.Add(TELEFONO[i]);
-               
-                 
-            }
-         
+                                
+            }         
         }
     }
 }
