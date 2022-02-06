@@ -49,8 +49,7 @@ namespace Cap7.Capitulo7
             {
                 imprimir.Items.Add(dato.Key);
                    imprimir.Items.Add(dato.Value);
-            } 
-            
+            }           
         }
     }
 }
