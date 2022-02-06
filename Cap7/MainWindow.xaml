@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cap7"
         mc:Ignorable="d"
-        Title="Capitulo 7" Height="400" Width="500">
+        Title="Capitulo 7" Height="200" Width="300">
     <Grid>
         <StackPanel Orientation="Vertical">
             <Menu Height="18">
 
-                <MenuItem Header="Capitulo 7 - Ejercicios 1 | 2 | 5">
+                <MenuItem Header="Ejercicios📐">
                     <MenuItem Header="Ejercicio 1" x:Name="ejercicio1" Click="Ejercicio1_Click"></MenuItem>
                     <MenuItem Header="Ejercicio 2" x:Name="ejercicio2" Click="Ejercicio2_Click"></MenuItem>
                     <MenuItem Header="Ejercicio 5" x:Name="ejercicio5" Click="Ejercicio5_Click"></MenuItem>

@@ -9,10 +9,11 @@
     <Grid  >
        <StackPanel Margin ="16" Orientation ="Vertical">
         <Label Content="Ingresa el nombre" />
-        <TextBox x:Name="nombre" Text=""/>
+        <TextBox x:Name="nombre" Text="" Margin ="4" FontSize="15"/>
         <Label Content="Ingresa el numero telefonico" />
-        <TextBox x:Name="numero" Text=""/>
-        <ListBox  x:Name="imprimir"  d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <TextBox x:Name="numero" Text="" Margin ="4" FontSize="15"/>
+        <ListBox  x:Name="imprimir"  d:ItemsSource="{d:SampleData ItemCount=5}" Height="70" Width="348"
+                Background = "#FFF5F5F5" HorizontalAlignment="Center"/>
 
           
           <StackPanel
@@ -20,8 +21,8 @@
         Orientation ="Horizontal"
         HorizontalAlignment="Center" >
 
-        <Button Content ="Guardar" Click ="Guardar_Click"/>
-        <Button Content ="Ver" Click ="Ver_Click"/>       
+        <Button Content ="📥Guardar" Background = "#FFFDF4BF" Click ="Guardar_Click"/>
+        <Button Content ="📲Ver" Background = "#FFFDF4BF" Click ="Ver_Click"/>       
  
      </StackPanel>
      </StackPanel>
